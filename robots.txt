@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mamellomusekene.github.io/world-explorer/sitemap.xml
