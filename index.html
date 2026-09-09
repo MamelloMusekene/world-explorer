@@ -1,0 +1,1243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="World Explorer — discover South Africa's cities, provinces, weather and unforgettable destinations."
+    >
+
+    <title>World Explorer | Discover South Africa</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
+
+    <header class="site-header">
+        <div class="header-container">
+
+            <a href="#home" class="logo">
+                WORLD<span>EXPLORER</span>
+            </a>
+
+            <nav class="site-nav" aria-label="Main navigation">
+                <a href="#home">Home</a>
+                <a href="#explore">Explore</a>
+                <a href="#destinations">Provinces</a>
+                <a href="#discover">Discover</a>
+                <a href="#features">Features</a>
+            </nav>
+
+            <a href="#explore" class="header-cta">
+                START EXPLORING
+            </a>
+
+        </div>
+    </header>
+
+
+    <main>
+
+        <!-- =================================================
+             HERO
+        ================================================== -->
+
+        <section id="home" class="hero-section">
+
+            <div class="hero-content">
+
+                <span class="hero-eyebrow">
+                    SOUTH AFRICA • 9 PROVINCES • ONE ADVENTURE
+                </span>
+
+                <h1>
+                    The world is <em>waiting.</em>
+                </h1>
+
+                <p>
+                    Explore South Africa through live weather,
+                    remarkable cities, beautiful destinations and
+                    stories worth discovering.
+                </p>
+
+                <div class="hero-actions">
+
+                    <a href="#explore" class="btn-primary">
+                        EXPLORE A CITY
+                    </a>
+
+                    <a href="#discover" class="btn-secondary">
+                        DISCOVER PLACES
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             LIVE CITY EXPLORER
+        ================================================== -->
+
+        <section id="explore" class="explore-section">
+
+            <div class="section-container">
+
+                <div class="section-header">
+
+                    <span class="section-eyebrow">
+                        LIVE CITY EXPLORER
+                    </span>
+
+                    <h2>
+                        Discover the city.
+                        <em>Know the moment.</em>
+                    </h2>
+
+                    <p>
+                        Search for a South African city and get
+                        current weather conditions powered by live
+                        weather data.
+                    </p>
+
+                </div>
+
+
+                <div class="search-panel">
+
+                    <div class="search-row">
+
+                        <div class="search-input-wrap">
+
+                            <label for="countryInput">
+                                SEARCH CITY
+                            </label>
+
+                            <input
+                                type="text"
+                                id="countryInput"
+                                placeholder="Enter a city..."
+                                autocomplete="off"
+                            >
+
+                        </div>
+
+                        <button id="searchButton" type="button">
+                            SEARCH
+                        </button>
+
+                    </div>
+
+
+                    <div class="quick-searches">
+
+                        <span>TRY:</span>
+
+                        <button
+                            class="quick-country"
+                            data-city="Johannesburg"
+                            type="button"
+                        >
+                            Johannesburg
+                        </button>
+
+                        <button
+                            class="quick-country"
+                            data-city="Cape Town"
+                            type="button"
+                        >
+                            Cape Town
+                        </button>
+
+                        <button
+                            class="quick-country"
+                            data-city="Durban"
+                            type="button"
+                        >
+                            Durban
+                        </button>
+
+                        <button
+                            class="quick-country"
+                            data-city="Pretoria"
+                            type="button"
+                        >
+                            Pretoria
+                        </button>
+
+                        <button
+                            class="quick-country"
+                            data-city="Gqeberha"
+                            type="button"
+                        >
+                            Gqeberha
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <div id="countryResult">
+
+                    <div class="destination-empty">
+
+                        <div class="empty-icon">◎</div>
+
+                        <h3>
+                            Your next destination starts here.
+                        </h3>
+
+                        <p>
+                            Search for a city above to see its
+                            current weather conditions.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             PROVINCES
+        ================================================== -->
+
+        <section id="destinations" class="provinces-section">
+
+            <div class="section-container">
+
+                <div class="section-header">
+
+                    <span class="section-eyebrow">
+                        SOUTH AFRICA
+                    </span>
+
+                    <h2>
+                        Nine provinces.
+                        <em>Endless stories.</em>
+                    </h2>
+
+                    <p>
+                        Explore South Africa province by province.
+                        Click any card to reveal cities and begin
+                        your journey.
+                    </p>
+
+                </div>
+
+
+                <div class="province-grid">
+
+
+                    <!-- GAUTENG -->
+
+                    <article class="province-card">
+
+                        <div class="province-card-inner">
+
+                            <div class="province-card-front">
+
+                                <div class="province-image-container">
+                                    <img
+                                        class="province-card-image"
+                                        src=""
+                                        alt="Gauteng"
+                                    >
+                                </div>
+
+                                <div class="province-overlay"></div>
+
+                                <div class="province-content">
+
+                                    <span class="province-number">
+                                        01 / 09
+                                    </span>
+
+                                    <h3>Gauteng</h3>
+
+                                    <p>
+                                        The economic powerhouse of South Africa,
+                                        filled with energy, culture and city life.
+                                    </p>
+
+                                    <span class="flip-hint">
+                                        CLICK TO EXPLORE CITIES
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="province-card-back">
+
+                                <span class="province-number">
+                                    01 / 09
+                                </span>
+
+                                <h3>Gauteng</h3>
+
+                                <p>
+                                    Experience the vibrant heart of South Africa,
+                                    from Johannesburg's energy to Pretoria's
+                                    heritage.
+                                </p>
+
+                                <div class="province-cities">
+                                    <span>Johannesburg</span>
+                                    <span>Pretoria</span>
+                                    <span>Soweto</span>
+                                </div>
+
+                                <button
+                                    class="province-explore"
+                                    data-city="Johannesburg"
+                                    type="button"
+                                >
+                                    EXPLORE JOHANNESBURG →
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- WESTERN CAPE -->
+
+                    <article class="province-card">
+
+                        <div class="province-card-inner">
+
+                            <div class="province-card-front">
+
+                                <div class="province-image-container">
+                                    <img
+                                        class="province-card-image"
+                                        src=""
+                                        alt="Western Cape"
+                                    >
+                                </div>
+
+                                <div class="province-overlay"></div>
+
+                                <div class="province-content">
+
+                                    <span class="province-number">
+                                        02 / 09
+                                    </span>
+
+                                    <h3>Western Cape</h3>
+
+                                    <p>
+                                        Dramatic coastlines, vineyards,
+                                        mountains and unforgettable landscapes.
+                                    </p>
+
+                                    <span class="flip-hint">
+                                        CLICK TO EXPLORE CITIES
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="province-card-back">
+
+                                <span class="province-number">
+                                    02 / 09
+                                </span>
+
+                                <h3>Western Cape</h3>
+
+                                <p>
+                                    From Cape Town's iconic mountain to the
+                                    peaceful Winelands and Garden Route.
+                                </p>
+
+                                <div class="province-cities">
+                                    <span>Cape Town</span>
+                                    <span>Stellenbosch</span>
+                                    <span>George</span>
+                                </div>
+
+                                <button
+                                    class="province-explore"
+                                    data-city="Cape Town"
+                                    type="button"
+                                >
+                                    EXPLORE CAPE TOWN →
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- KWAZULU-NATAL -->
+
+                    <article class="province-card">
+
+                        <div class="province-card-inner">
+
+                            <div class="province-card-front">
+
+                                <div class="province-image-container">
+                                    <img
+                                        class="province-card-image"
+                                        src=""
+                                        alt="KwaZulu-Natal"
+                                    >
+                                </div>
+
+                                <div class="province-overlay"></div>
+
+                                <div class="province-content">
+
+                                    <span class="province-number">
+                                        03 / 09
+                                    </span>
+
+                                    <h3>KwaZulu-Natal</h3>
+
+                                    <p>
+                                        Warm Indian Ocean beaches, rich heritage
+                                        and dramatic mountain scenery.
+                                    </p>
+
+                                    <span class="flip-hint">
+                                        CLICK TO EXPLORE CITIES
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="province-card-back">
+
+                                <span class="province-number">
+                                    03 / 09
+                                </span>
+
+                                <h3>KwaZulu-Natal</h3>
+
+                                <p>
+                                    Discover coastal energy, cultural heritage
+                                    and the beauty of the Drakensberg.
+                                </p>
+
+                                <div class="province-cities">
+                                    <span>Durban</span>
+                                    <span>Pietermaritzburg</span>
+                                    <span>Richards Bay</span>
+                                </div>
+
+                                <button
+                                    class="province-explore"
+                                    data-city="Durban"
+                                    type="button"
+                                >
+                                    EXPLORE DURBAN →
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- EASTERN CAPE -->
+
+                    <article class="province-card">
+
+                        <div class="province-card-inner">
+
+                            <div class="province-card-front">
+
+                                <div class="province-image-container">
+                                    <img
+                                        class="province-card-image"
+                                        src=""
+                                        alt="Eastern Cape"
+                                    >
+                                </div>
+
+                                <div class="province-overlay"></div>
+
+                                <div class="province-content">
+
+                                    <span class="province-number">
+                                        04 / 09
+                                    </span>
+
+                                    <h3>Eastern Cape</h3>
+
+                                    <p>
+                                        Wild coastline, historic towns and
+                                        remarkable natural beauty.
+                                    </p>
+
+                                    <span class="flip-hint">
+                                        CLICK TO EXPLORE CITIES
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="province-card-back">
+
+                                <span class="province-number">
+                                    04 / 09
+                                </span>
+
+                                <h3>Eastern Cape</h3>
+
+                                <p>
+                                    Explore the Sunshine Coast, historic cities
+                                    and the gateway to the Wild Coast.
+                                </p>
+
+                                <div class="province-cities">
+                                    <span>Gqeberha</span>
+                                    <span>East London</span>
+                                    <span>Mthatha</span>
+                                </div>
+
+                                <button
+                                    class="province-explore"
+                                    data-city="Gqeberha"
+                                    type="button"
+                                >
+                                    EXPLORE GQEBERHA →
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- MPUMALANGA -->
+
+                    <article class="province-card">
+
+                        <div class="province-card-inner">
+
+                            <div class="province-card-front">
+
+                                <div class="province-image-container">
+                                    <img
+                                        class="province-card-image"
+                                        src=""
+                                        alt="Mpumalanga"
+                                    >
+                                </div>
+
+                                <div class="province-overlay"></div>
+
+                                <div class="province-content">
+
+                                    <span class="province-number">
+                                        05 / 09
+                                    </span>
+
+                                    <h3>Mpumalanga</h3>
+
+                                    <p>
+                                        Waterfalls, mountains, wildlife and the
+                                        spectacular Panorama Route.
+                                    </p>
+
+                                    <span class="flip-hint">
+                                        CLICK TO EXPLORE CITIES
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="province-card-back">
+
+                                <span class="province-number">
+                                    05 / 09
+                                </span>
+
+                                <h3>Mpumalanga</h3>
+
+                                <p>
+                                    Gateway to the Lowveld and some of South
+                                    Africa's most spectacular scenery.
+                                </p>
+
+                                <div class="province-cities">
+                                    <span>Mbombela</span>
+                                    <span>White River</span>
+                                    <span>Hazyview</span>
+                                </div>
+
+                                <button
+                                    class="province-explore"
+                                    data-city="Mbombela"
+                                    type="button"
+                                >
+                                    EXPLORE MBOMBELA →
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- LIMPOPO -->
+
+                    <article class="province-card">
+
+                        <div class="province-card-inner">
+
+                            <div class="province-card-front">
+
+                                <div class="province-image-container">
+                                    <img
+                                        class="province-card-image"
+                                        src=""
+                                        alt="Limpopo"
+                                    >
+                                </div>
+
+                                <div class="province-overlay"></div>
+
+                                <div class="province-content">
+
+                                    <span class="province-number">
+                                        06 / 09
+                                    </span>
+
+                                    <h3>Limpopo</h3>
+
+                                    <p>
+                                        Ancient landscapes, wildlife and
+                                        extraordinary northern wilderness.
+                                    </p>
+
+                                    <span class="flip-hint">
+                                        CLICK TO EXPLORE CITIES
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="province-card-back">
+
+                                <span class="province-number">
+                                    06 / 09
+                                </span>
+
+                                <h3>Limpopo</h3>
+
+                                <p>
+                                    Discover baobabs, wildlife, cultural heritage
+                                    and the far north of South Africa.
+                                </p>
+
+                                <div class="province-cities">
+                                    <span>Polokwane</span>
+                                    <span>Tzaneen</span>
+                                    <span>Thohoyandou</span>
+                                </div>
+
+                                <button
+                                    class="province-explore"
+                                    data-city="Polokwane"
+                                    type="button"
+                                >
+                                    EXPLORE POLOKWANE →
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- FREE STATE -->
+
+                    <article class="province-card">
+
+                        <div class="province-card-inner">
+
+                            <div class="province-card-front">
+
+                                <div class="province-image-container">
+                                    <img
+                                        class="province-card-image"
+                                        src=""
+                                        alt="Free State"
+                                    >
+                                </div>
+
+                                <div class="province-overlay"></div>
+
+                                <div class="province-content">
+
+                                    <span class="province-number">
+                                        07 / 09
+                                    </span>
+
+                                    <h3>Free State</h3>
+
+                                    <p>
+                                        Open plains, sandstone landscapes and
+                                        peaceful countryside.
+                                    </p>
+
+                                    <span class="flip-hint">
+                                        CLICK TO EXPLORE CITIES
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="province-card-back">
+
+                                <span class="province-number">
+                                    07 / 09
+                                </span>
+
+                                <h3>Free State</h3>
+
+                                <p>
+                                    Experience wide-open landscapes, historic
+                                    architecture and welcoming towns.
+                                </p>
+
+                                <div class="province-cities">
+                                    <span>Bloemfontein</span>
+                                    <span>Welkom</span>
+                                    <span>Bethlehem</span>
+                                </div>
+
+                                <button
+                                    class="province-explore"
+                                    data-city="Bloemfontein"
+                                    type="button"
+                                >
+                                    EXPLORE BLOEMFONTEIN →
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- NORTH WEST -->
+
+                    <article class="province-card">
+
+                        <div class="province-card-inner">
+
+                            <div class="province-card-front">
+
+                                <div class="province-image-container">
+                                    <img
+                                        class="province-card-image"
+                                        src=""
+                                        alt="North West"
+                                    >
+                                </div>
+
+                                <div class="province-overlay"></div>
+
+                                <div class="province-content">
+
+                                    <span class="province-number">
+                                        08 / 09
+                                    </span>
+
+                                    <h3>North West</h3>
+
+                                    <p>
+                                        Bushveld landscapes, wildlife and
+                                        legendary entertainment destinations.
+                                    </p>
+
+                                    <span class="flip-hint">
+                                        CLICK TO EXPLORE CITIES
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="province-card-back">
+
+                                <span class="province-number">
+                                    08 / 09
+                                </span>
+
+                                <h3>North West</h3>
+
+                                <p>
+                                    Explore wildlife, adventure and the cultural
+                                    heritage of South Africa's northwest.
+                                </p>
+
+                                <div class="province-cities">
+                                    <span>Rustenburg</span>
+                                    <span>Mahikeng</span>
+                                    <span>Potchefstroom</span>
+                                </div>
+
+                                <button
+                                    class="province-explore"
+                                    data-city="Rustenburg"
+                                    type="button"
+                                >
+                                    EXPLORE RUSTENBURG →
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- NORTHERN CAPE -->
+
+                    <article class="province-card">
+
+                        <div class="province-card-inner">
+
+                            <div class="province-card-front">
+
+                                <div class="province-image-container">
+                                    <img
+                                        class="province-card-image"
+                                        src=""
+                                        alt="Northern Cape"
+                                    >
+                                </div>
+
+                                <div class="province-overlay"></div>
+
+                                <div class="province-content">
+
+                                    <span class="province-number">
+                                        09 / 09
+                                    </span>
+
+                                    <h3>Northern Cape</h3>
+
+                                    <p>
+                                        Vast desert horizons, dramatic skies and
+                                        some of the country's clearest night skies.
+                                    </p>
+
+                                    <span class="flip-hint">
+                                        CLICK TO EXPLORE CITIES
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="province-card-back">
+
+                                <span class="province-number">
+                                    09 / 09
+                                </span>
+
+                                <h3>Northern Cape</h3>
+
+                                <p>
+                                    Journey through vast landscapes, diamond history
+                                    and remarkable desert scenery.
+                                </p>
+
+                                <div class="province-cities">
+                                    <span>Kimberley</span>
+                                    <span>Upington</span>
+                                    <span>Springbok</span>
+                                </div>
+
+                                <button
+                                    class="province-explore"
+                                    data-city="Kimberley"
+                                    type="button"
+                                >
+                                    EXPLORE KIMBERLEY →
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             DISCOVER
+        ================================================== -->
+
+        <section id="discover" class="discover-section">
+
+            <div class="section-container">
+
+                <div class="discover-header">
+
+                    <span class="section-eyebrow">
+                        PLACES WORTH DISCOVERING
+                    </span>
+
+                    <h2>
+                        Find somewhere
+                        <em>worth discovering.</em>
+                    </h2>
+
+                    <p>
+                        Choose a city and uncover attractions,
+                        experiences and places that make it special.
+                    </p>
+
+                </div>
+
+
+                <div class="discover-controls">
+
+                    <div class="discover-select-wrap">
+
+                        <label for="discoverCitySelect">
+                            CHOOSE A DESTINATION
+                        </label>
+
+                        <select
+                            id="discoverCitySelect"
+                            class="discover-select"
+                        >
+
+                            <option value="">
+                                Select a city...
+                            </option>
+
+                            <optgroup label="Gauteng">
+                                <option value="Johannesburg">Johannesburg</option>
+                                <option value="Pretoria">Pretoria</option>
+                                <option value="Soweto">Soweto</option>
+                            </optgroup>
+
+                            <optgroup label="Western Cape">
+                                <option value="Cape Town">Cape Town</option>
+                                <option value="Stellenbosch">Stellenbosch</option>
+                                <option value="George">George</option>
+                            </optgroup>
+
+                            <optgroup label="KwaZulu-Natal">
+                                <option value="Durban">Durban</option>
+                                <option value="Pietermaritzburg">Pietermaritzburg</option>
+                                <option value="Richards Bay">Richards Bay</option>
+                            </optgroup>
+
+                            <optgroup label="Eastern Cape">
+                                <option value="Gqeberha">Gqeberha</option>
+                                <option value="East London">East London</option>
+                                <option value="Mthatha">Mthatha</option>
+                            </optgroup>
+
+                            <optgroup label="Mpumalanga">
+                                <option value="Mbombela">Mbombela</option>
+                                <option value="White River">White River</option>
+                                <option value="Hazyview">Hazyview</option>
+                            </optgroup>
+
+                            <optgroup label="Limpopo">
+                                <option value="Polokwane">Polokwane</option>
+                                <option value="Tzaneen">Tzaneen</option>
+                                <option value="Thohoyandou">Thohoyandou</option>
+                            </optgroup>
+
+                            <optgroup label="Free State">
+                                <option value="Bloemfontein">Bloemfontein</option>
+                                <option value="Welkom">Welkom</option>
+                                <option value="Bethlehem">Bethlehem</option>
+                            </optgroup>
+
+                            <optgroup label="North West">
+                                <option value="Rustenburg">Rustenburg</option>
+                                <option value="Mahikeng">Mahikeng</option>
+                                <option value="Potchefstroom">Potchefstroom</option>
+                            </optgroup>
+
+                            <optgroup label="Northern Cape">
+                                <option value="Kimberley">Kimberley</option>
+                                <option value="Upington">Upington</option>
+                                <option value="Springbok">Springbok</option>
+                            </optgroup>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+
+                <div
+                    id="discoverResultsHeading"
+                    class="discover-results-heading"
+                >
+
+                    <h3>Featured places</h3>
+
+                    <span>
+                        Choose a city to begin
+                    </span>
+
+                </div>
+
+
+                <div
+                    id="destinationGrid"
+                    class="destination-grid"
+                >
+
+                    <div class="destination-empty">
+
+                        <div class="empty-icon">✦</div>
+
+                        <h3>
+                            Your next adventure is waiting.
+                        </h3>
+
+                        <p>
+                            Select a city above to discover
+                            remarkable places and experiences.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             FEATURES
+        ================================================== -->
+
+        <section id="features" class="features-section">
+
+            <div class="section-container">
+
+                <div class="section-header">
+
+                    <span class="section-eyebrow">
+                        BUILT FOR EXPLORERS
+                    </span>
+
+                    <h2>
+                        Explore with
+                        <em>real data.</em>
+                    </h2>
+
+                    <p>
+                        World Explorer combines live APIs,
+                        destination information and interactive
+                        design into one travel experience.
+                    </p>
+
+                </div>
+
+
+                <div class="features-grid">
+
+                    <article class="feature-card">
+
+                        <div class="feature-icon">
+                            ☀
+                        </div>
+
+                        <h3>
+                            Live Weather
+                        </h3>
+
+                        <p>
+                            Search cities and view current
+                            weather conditions using live
+                            Open-Meteo data.
+                        </p>
+
+                    </article>
+
+
+                    <article class="feature-card">
+
+                        <div class="feature-icon">
+                            ◈
+                        </div>
+
+                        <h3>
+                            Nine Provinces
+                        </h3>
+
+                        <p>
+                            Explore all nine South African
+                            provinces and their featured cities.
+                        </p>
+
+                    </article>
+
+
+                    <article class="feature-card">
+
+                        <div class="feature-icon">
+                            ✦
+                        </div>
+
+                        <h3>
+                            Discover Places
+                        </h3>
+
+                        <p>
+                            Find tourist attractions and
+                            experiences worth adding to your trip.
+                        </p>
+
+                    </article>
+
+
+                    <article class="feature-card">
+
+                        <div class="feature-icon">
+                            ◎
+                        </div>
+
+                        <h3>
+                            Interactive Experience
+                        </h3>
+
+                        <p>
+                            Flip cards, explore locations and
+                            move through the site naturally.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =====================================================
+         EXPERIENCE MODAL
+    ====================================================== -->
+
+    <div
+        id="countryExperience"
+        aria-hidden="true"
+    >
+
+        <div class="experience-modal">
+
+            <button
+                id="closeExperience"
+                type="button"
+                aria-label="Close"
+            >
+                ×
+            </button>
+
+            <div id="experienceContent"></div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer class="site-footer">
+
+        <div class="footer-container">
+
+            <div class="footer-brand">
+                WORLD<span>EXPLORER</span>
+            </div>
+
+            <div class="footer-links">
+
+                <a href="#home">Home</a>
+                <a href="#explore">Explore</a>
+                <a href="#destinations">Provinces</a>
+                <a href="#discover">Discover</a>
+                <a href="#features">Features</a>
+
+            </div>
+
+        </div>
+
+        <p class="footer-copy">
+            © 2026 World Explorer · Personal Portfolio Project
+        </p>
+
+    </footer>
+
+
+    <script src="assets/js/app.js"></script>
+
+</body>
+</html>
